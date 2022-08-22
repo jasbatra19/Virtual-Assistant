@@ -127,7 +127,7 @@ if __name__ == "__main__":
             speak('voice has been changed')
 
 
-        elif 'change voice to male' in query:
+        elif 'change voice to female' in query:
             engine.setProperty('voice', voices[1].id)
             speak('voice has been changed')
 
